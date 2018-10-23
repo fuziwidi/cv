@@ -6,12 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Syukri Magazine</title>
- <!--  <link rel="stylesheet" href="assets/fontawesome-free-5.2.0-web/css/all.min.css"> -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
-  <link rel="stylesheet" href="style.css">
+  <!--  <link rel="stylesheet" href="assets/fontawesome-free-5.2.0-web/css/all.min.css"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+<link rel="stylesheet" href="stylepref.css">
 
-  
 </head>
 
 <body>
@@ -39,13 +40,22 @@
         <div class="nav navs">
           <a href="#">Home</a>
           <a href="#">About Us</a>
-          <a href="#">Contact Us</a>
+          <div href="#" class="hover-menu" >
+            Menu
+            <i class="fas fa-sort-down" >  </i>
+            <div class="hover-menu-sorot" >
+              <a href="#">PHP</a>
+              <a href="#">Javascript</a>
+              <a href="#">HTML</a>
+              <a href="#">CSS</a>
+            </div>
+          </div>
         </div>
       </div>
       <div class="nav search">
         <div class="nav search">
           <a href="#" class="fas fa-search"></a>
-          <input type="text" placeholder="Search...">
+          <input type="search" placeholder="Search...">
         </div>
       </div>
     </div>
@@ -57,44 +67,63 @@
           <span>Belajar Programing Web</span>
         </div>
         <div class="content-img">
-          <img src="assets/img/1.jpg" alt="#">
-          <i class="fas fa-heart" ></i>
+          <div class="table">
+            <div>
+              <table>
+                <tr>
+                  <td>Type Variable</td>
+                  <td>Nilai</td>
+                  <td>Alokasi Memori</td>
+
+                </tr>
+                <tr>
+                  <td>Boolean</td>
+                  <td>True or False</td>
+                  <td>1 Bytes</td>
+
+                </tr>
+                <tr>
+                  <td>Char</td>
+                  <td>String Character</td>
+                  <td>2 Bytes</td>
+
+                </tr>
+                <tr>
+                  <td>Byte</td>
+                  <td>Integer</td>
+                  <td>1 Byte</td>
+
+                </tr>
+                <tr>
+                  <td>Short</td>
+                  <td>Integer</td>
+                  <td>2 Bytes</td>
+                </tr>
+                <tr>
+                  <td>Int</td>
+                  <td>Integer</td>
+                  <td>8 Bytes</td>
+                </tr>
+                <tr>
+                  <td>Float</td>
+                  <td>Floating-point Number</td>
+                  <td>4 Bytes</td>
+                </tr>
+                <tr>
+                  <td>Double</td>
+                  <td>Floating-point Number</td>
+                  <td>8 Bytes</td>
+                </tr>
+
+              </table>
+            </div>
+          </div>
         </div>
         <div class="content-paragraf">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error illum atque et qui, odio amet ratione repudiandae
-            aspernatur veritatis distinctio hic officia doloribus consequuntur provident dolores esse labore, vel temporibus!</p>
-        </div>
-        <div class="content-action">
-          <a href="#" class="button-main">Read More</a>
-        </div>
-      </div>
-      <div class="content">
-        <div class="content-title">
-          <span>HTML dasar</span>
-        </div>
-        <div class="content-img">
-          <img src="assets/img/hero1.jpg" alt="#">
-           <i class="fas fa-heart" ></i>
-        </div>
-        <div class="content-paragraf">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error illum atque et qui, odio amet ratione repudiandae
-            </p>
-        </div>
-        <div class="content-action">
-          <a href="#" class="button-main">Read More</a>
-        </div>
-      </div>
-      <div class="content">
-        <div class="content-title">
-          <span>CSS Dasar</span>
-        </div>
-        <div class="content-img">
-          <img src="assets/img/cs.jpg" alt="#">
-           <i class="fas fa-heart" ></i>
-        </div>
-        <div class="content-paragraf">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error illum atque et qui, odio amet ratione repudiandae
-            </p>
+          <p>Pada prinsipnya sama seperti kita ingin menuju Roma, akan ada banyak jalan. Kita bisa lewat Bogor, kemudian
+            ke Bandung lalu sampai di Roma. Atau kita juga bisa lewat Karawang, kemudian ke Jakarta, selanjutnya mendaki
+            gunung Krakatau dan sampailah di Roma (anggap saja itu benar :D). Ya, untuk menjadi seorang programmer pun demikian,
+            ada banyak cara yang bisa ditempuh untuk belajarnya.</p>
         </div>
         <div class="content-action">
           <a href="#" class="button-main">Read More</a>
@@ -103,211 +132,79 @@
 
     </div>
   </main>
-  <aside class="left" >
-    <div class="left-title" >New Technology</div>
-    <div class="left-content" >
-
-      <div class="content">
-        <div class="content-title">
-          <span>HTML5</span>
-        </div>
-        <div class="content-img">
-           <i class="fab fa-html5" ></i>
-        </div>
-        <div class="content-paragraf">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            </p>
-        </div>
-        <div class="content-action">
-          <a href="#" class="button-main">Read More</a>
-        </div>
-      </div>
-
-      <div class="content">
-        <div class="content-title">
-          <span>SASS</span>
-        </div>
-        <div class="content-img">
-           <i class="fab fa-css3" ></i>
-        </div>
-        <div class="content-paragraf">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            </p>
-        </div>
-        <div class="content-action">
-          <a href="#" class="button-main">Read More</a>
-        </div>
-      </div>
-
-      <div class="content">
-        <div class="content-title">
-          <span>Laravel</span>
-        </div>
-        <div class="content-img">
-           <i class="fab fa-php" ></i>
-        </div>
-        <div class="content-paragraf">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            </p>
-        </div>
-        <div class="content-action">
-          <a href="#" class="button-main">Read More</a>
-        </div>
-      </div>
-
-      <div class="content">
-        <div class="content-title">
-          <span>ReactJS</span>
-        </div>
-        <div class="content-img">
-           <i class="fab fa-js" ></i>
-        </div>
-        <div class="content-paragraf">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            </p>
-        </div>
-        <div class="content-action">
-          <a href="#" class="button-main">Read More</a>
-        </div>
-      </div>
+  <aside class="left">
+    <div class="title">
+      Silahkan masuk menggunakan akun anda untuk mendapatkan info terbaru !!!
     </div>
+    <form action="" method="post">
+      <h1>Log In</h1>
+      <fieldset>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="user_email">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="user_password">
+      </fieldset>
+      <button id="signupdown">Sign Up</button>
+    </form>
   </aside>
   <aside class="right">
-
-    <div class="most-view" >
-      <div class="title" >MOST VIEWED</div>
-      <div class="content">
-        <div class="content-img" >
-          <img src="assets/img/react.png" alt="">
-        </div>
-        <div class="content-title">
-          <span>ReactJS most popular javascript framework</span>
-        </div>
-        <div class="content-action">
-          <a href="#" class="button-main">Read More</a>
-        </div>
-      </div>
-       <div class="content">
-        <div class="content-img" >
-          <img src="assets/img/laravel.jpg" alt="">
-        </div>
-        <div class="content-title">
-          <span>Laravel PHP framework</span>
-        </div>
-        <div class="content-action">
-          <a href="#" class="button-main">Read More</a>
-        </div>
-      </div>
-       <div class="content">
-        <div class="content-img" >
-          <img src="assets/img/nottstrap.jpg" alt="">
-        </div>
-        <div class="content-title">
-          <span>Bootstrap outstanding framework UI</span>
-        </div>
-        <div class="content-action">
-          <a href="#" class="button-main">Read More</a>
-        </div>
-      </div>
-       <div class="content">
-        <div class="content-img" >
-          <img src="assets/img/ux.png" alt="">
-        </div>
-        <div class="content-title">
-          <span>UX as main concept</span>
-        </div>
-        <div class="content-action">
-          <a href="#" class="button-main">Read More</a>
-        </div>
-      </div>
+    <div class="img">
+      <img src="test.jpg" alt="#">
     </div>
-
-    <div class="most-view commented" >
-      <div class="title" >MOST COMMENTED</div>
-      <div class="content">
-        <div class="content-img" >
-          <img src="assets/img/react.png" alt="">
-        </div>
-        <div class="content-title">
-          <span>ReactJS most popular javascript framework</span>
-        </div>
-        <div class="content-action">
-          <a href="#" class="button-main">Read More</a>
-        </div>
-      </div>
-       <div class="content">
-        <div class="content-img" >
-          <img src="assets/img/laravel.jpg" alt="">
-        </div>
-        <div class="content-title">
-          <span>Laravel PHP framework</span>
-        </div>
-        <div class="content-action">
-          <a href="#" class="button-main">Read More</a>
-        </div>
-      </div>
-       <div class="content">
-        <div class="content-img" >
-          <img src="assets/img/nottstrap.jpg" alt="">
-        </div>
-        <div class="content-title">
-          <span>Bootstrap outstanding framework UI</span>
-        </div>
-        <div class="content-action">
-          <a href="#" class="button-main">Read More</a>
-        </div>
-      </div>
-       <div class="content">
-        <div class="content-img" >
-          <img src="assets/img/ux.png" alt="">
-        </div>
-        <div class="content-title">
-          <span>UX as main concept</span>
-        </div>
-        <div class="content-action">
-          <a href="#" class="button-main">Read More</a>
-        </div>
-      </div>
-       <div class="content">
-        <div class="content-img" >
-          <img src="assets/img/cs.jpg" alt="">
-        </div>
-        <div class="content-title">
-          <span>CSS fancy</span>
-        </div>
-        <div class="content-action">
-          <a href="#" class="button-main">Read More</a>
-        </div>
-      </div>
+    <div class="rightContent">
+      <Table>
+        <tr>
+          <td>Nama</td>
+          <td>Syukri Husaibatul Khairi</td>
+        </tr>
+        <tr>
+          <td>NIM</td>
+          <td>1755201148</td>
+        </tr>
+        <tr>
+          <td>Kelas</td>
+          <td>TI2</td>
+        </tr>
+      </Table>
     </div>
   </aside>
-
   <footer>
-    <div class="about" >
-        <div class="title" >
-          ABOUT
-        </div> 
-        <div class="contents" >
-            <div class="contents-title" >ukiBlog</div>
-            <div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, illum cupiditate ducimus! Harum adipisci, aliquam laudantium ipsum atque obcaecati</p>
-            </div>
-        </div> 
+    <div class="about">
+      <div class="title">
+        ABOUT
+      </div>
+      <div class="contents">
+        <div class="contents-title">ukiBlog</div>
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, illum cupiditate ducimus! Harum adipisci,
+            aliquam laudantium ipsum atque obcaecati</p>
+        </div>
+      </div>
     </div>
-    <div class="cat" >
-        <div class="title" >
-          CATEGORI
-        </div> 
-        <div class="contents" >
-           <a href="#">Home</a>
-           <a href="#">About US</a>
-           <a href="#">Contact US</a>
-        </div> 
+    <div class="cat">
+      <div class="title">
+        CATEGORI
+      </div>
+      <div class="contents">
+        <a href="#">Home</a>
+        <a href="#">About US</a>
+        <a href="#">Contact US</a>
+      </div>
     </div>
-    <div class="create" >
+    <div class="create">
       2018 &copy; Syukri Husaibatul Khairi
     </div>
   </footer>
 </body>
 
 </html>
+
+<script>
+
+  var btn = document.getElementById("signupdown");
+
+  btn.addEventListener("click", function (e) {
+    e.preventDefault();
+  })
+
+</script>
