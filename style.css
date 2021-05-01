@@ -272,8 +272,8 @@ main {
   display: grid;
   grid-template-areas:
     "i"
-    "t"
     "p"
+    "t"
     "a";
 }
 
