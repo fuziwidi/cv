@@ -604,10 +604,6 @@ footer a {
 }
 
 /* table   */
-table tr td:nth-child(even) {
-  display: none;
-}
-
 tr:not(:first-child) {
   font-size: 14px;
   color: #666;
